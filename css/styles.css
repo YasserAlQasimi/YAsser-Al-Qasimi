@@ -5,3 +5,40 @@
   --color-heading: #1b0760;
   --color-body: #918ca4;
 }
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  color: var(--color-body);
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+H1,
+h2,
+h3 {
+  color: var(--color-heading);
+}
